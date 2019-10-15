@@ -24,7 +24,9 @@ print(vol)
         TASK 2
       
 Ques 1:
-
+values = input("Input some comma separated numbers : ")
+values = values.split(",")
+print(values)
 
 Ques 2:
 for i in range(1,10):
@@ -45,6 +47,10 @@ Ques 3:
   
   
 Ques 4:
-        
-        
-Ques 5:
+str1 = "WE, THE PEOPLE OF INDIA,"
+str2 = "having solemnly resolved to constitute India into a SOVEREIGN,"
+str3 = "SOCIALIST, SECULAR, DEMOCRATIC REPUBLIC "
+str4 = "and to secure to all its citizens"
+
+print(str1,"\n\t",str2,"!\n\t\t",str3,"\n\t\t ",str4)
+
